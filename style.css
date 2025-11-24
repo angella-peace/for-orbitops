@@ -1,39 +1,39 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background: #0f0f2c;
-  color: #2e2d2d;
+  background: #dbdbf8;
+  color: #030303;
 }
 
 header {
-  background: #030322;
-  color: white;
+  background: #ddddf0;
+  color: rgb(17, 17, 17);
   padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 h1 {
-    font-size: small;
+    font-size: medium;
 }
 
 nav a {
-  color: white;
+  color: rgb(12, 11, 11);
   margin-left: 20px;
   text-decoration: none;
-  font-weight: 200;
-  font-size: medium;
+  font-weight: 500;
+  font-size: large;
   font-family: Arial, sans-serif;
 }
 nav a.active {
-    background-color: #6355cf;
-    color: aliceblue;
+    background-color: #1a1a99;
+    color: rgb(234, 232, 240);
     border-radius: 5px;
 }
 
 hr {
     height: 4px;
-    background-color: #6c5bf3;
+    background-color: #150a66;
     border: none;
 }
 
@@ -102,7 +102,7 @@ nav a:hover {
 
 
 .updates {
-    color: rgb(181, 162, 231);
+    color: rgb(71, 40, 150);
     padding: 30px 80px;
     display: flex;
     justify-content: space-between;
@@ -122,7 +122,7 @@ nav a:hover {
 .btn-services {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #2b1ba1;
+    background-color: #1e0e99;
     color: whitesmoke;
     border-radius: 4px;
     font-weight: bold;
@@ -134,7 +134,7 @@ nav a:hover {
 
 }
 .features {
-    background-color: #030322;
+    background-color: none;
     padding: 60px 80px;
 }
 .features-header {
@@ -142,14 +142,14 @@ nav a:hover {
     margin: 0 auto;
 }
 .features-label {
-    color: #9d93ee;
+    color: #190b81;
     font-size: 2.0em;
     font-weight: 600;
     margin-bottom: 5px;
 }
 .section-heading {
     font-size: 1.5em;
-    color: #9d93ee;
+    color: #0e0936;
     margin-top: 0;
     margin-bottom: 40px;
 }
@@ -159,7 +159,7 @@ nav a:hover {
 }
 .bc-card {
     flex: 1;
-    background-color: #8f82f1;
+    background-color: #dbdbf8;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     overflow: hidden;
@@ -191,7 +191,7 @@ nav a:hover {
 }
 .card-body p {
     color: #030322;
-    font-size: 0.8em;
+    font-size: 1.0em;
     line-height: 1.5;
     flex-grow: 1;
     align-items: flex-start;
@@ -214,7 +214,7 @@ nav a:hover {
 }
 .section-divider {
     border: none;
-    border-top: 1px solid #5e6af7;
+    border-top: 1px solid #060827;
     max-width: 1200px;
     margin: 60px auto; 
     height: auto;
@@ -231,11 +231,11 @@ nav a:hover {
 }
 .servban-content {
     flex: 3; 
-    color: #83b7f3; 
+    color: #084e7c; 
 }
 .servban-heading {
     font-size: 2.5em;
-    color: #c2daf3; 
+    color: #3187e4; 
     margin-top: 0;
     margin-bottom: 20px;
     text-align: left;
@@ -256,16 +256,16 @@ nav a:hover {
     margin-bottom: 15px;
     display: flex; 
     align-items: flex-start;
-    color: #c4dbf5;
+    color: #3187e4;
 }
 .servban-icon {
     font-size: 0.5em;
-    color: #4aacee; 
+    color: #1e6899; 
     margin-right: 15px; 
     flex-shrink: 0; 
 }
 .servban-list strong {
-    color: #d5dfe9; 
+    color: #1f558b; 
 }
 .servban-banner {
     flex: 2; 
@@ -290,12 +290,12 @@ nav a:hover {
 }
 .grid-heading {
     font-size: 2.5em;
-    color: #93c3f7;
+    color: #2e89eb;
     margin-bottom: 10px;
 }
 .grid-subheading {
     font-size: 1.2em;
-    color: #6c757d;
+    color: #585b5e;
     margin-bottom: 50px;
 }
 .feature-grid-container {
@@ -323,13 +323,13 @@ nav a:hover {
 }
 .feature-item .title {
     font-size: 1.2em;
-    color: #9fc9f7;
+    color: #268cfa;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
 .feature-item p {
-    color: #687c91;
+    color: #404852;
     font-size: 1em;
     line-height: 1.5;
 }
@@ -337,7 +337,8 @@ nav a:hover {
     height: 1px;
 }
 .home-page-footer {
-    color: #b7c6f7; 
+    color: #183899; 
+    background-color: #98afc2;
 }
 .footer-top-content {
     max-width: 1200px; 
@@ -368,7 +369,7 @@ nav a:hover {
 }
 .company-tagline {
     font-size: 0.7em;
-    color: #a8aee4;
+    color: #1a28aa;
     margin-top: 10px;
 }
 .footer-contact-info {
@@ -376,7 +377,7 @@ nav a:hover {
     padding: 0;
 }
 .footer-contact-info h6 {
-    color: #3d6df0;
+    color: #3f67d4;
     margin-bottom: 20px;
     font-size: 0.9em;
     margin-top: 0px;
@@ -386,16 +387,16 @@ nav a:hover {
     align-items: center; 
     font-size: 0.8em;
     line-height: 1.5;
-    color: #ccc;
+    color: #142086;
     margin-bottom: 5px;
 }
 .footer-contact-info a {
-    color: #5956fa;
+    color: #09092e;
     text-decoration: underline; 
     transition: color 0.3s;
 }
 .footer-contact-info a:hover {
-    color: #78dcf5; 
+    color: #3338e4; 
 }
 .footer-contact-info i {
     margin-right: 15px; 
@@ -488,7 +489,7 @@ nav a:hover {
   display: block;
   font-size: 9px;
   margin-top: 6px;
-  color: #b7d6fa;
+  color: #6252f3;
 }
 
 .orbit-item:nth-child(1) { transform: rotate(0deg) translateX(160px) rotate(0deg); }
@@ -522,7 +523,7 @@ nav a:hover {
     margin-bottom: 18px;
     line-height: 30px;
     font-size: 15px;
-    color: #81bae9;
+    color: #138cf0;
 }
 .services-hello p strong {
     margin-bottom: 20px;
@@ -543,7 +544,7 @@ html {
 .grid-content {
   text-align: left;
   margin-bottom: 50px;
-  color: #675d8a;
+  color: #3f22c0;
 }
 
 .service-grid {
@@ -555,7 +556,7 @@ html {
 .service-box-left {
   max-width: 600px;
   background-color: none; 
-  color: #bbabf8;
+  color: #232224;
   padding: 60px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -652,7 +653,7 @@ html {
   font-size: 2.0rem;
   font-weight: 700;
   margin: 0;
-  color: #5292c7;
+  color: #3e85c0;
 }
 
 .services-loop {
@@ -662,9 +663,10 @@ html {
   gap: 10px;
   padding: 40px 20px;
   border-radius: 80px;
-  background: linear-gradient(145deg, #1a1a3a, #1a1a3a);
+  background: linear-gradient(145deg, #d6d6f0, #9696d6);
   position: relative;
   overflow: hidden;
+  color: #5c41f7;
 }
 
 .services-loop::before,
@@ -755,14 +757,14 @@ html {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    color: #d8cef1;
+    color: #2a0a7a;
 }
 
 .big-text {
     font-size: 40px;
     line-height: 1.2;
     font-weight: 700;
-    color: #cab9e7; /* red like Makerere */
+    color: #223fc0; /* red like Makerere */
 }
 
 .vision-right {
@@ -772,7 +774,7 @@ html {
 .vision-right p {
     font-size: 17px;
     line-height: 1.7;
-    color: #ac82f8;
+    color: #162eb8;
     margin-bottom: 20px;
 }
 main {
@@ -793,20 +795,20 @@ main, h4 {
   margin: 20px 0;
 }
 #microsoft-partner p {
-    color: #849aac;
+    color: #545d64;
 }
 
 .child-partners .child-partner {
   flex: 1 1 200px;
   padding: 15px;
-  border: 1px solid #0f0f2c;
+  border: none;
   border-radius: 8px;
-  background-color: #0f0f2c;
-  text-align: left;
-  color: #c7d9ec;
+  background-color: none;
+  text-align: center;
+  color: #9a81f5;
 }
 .child-partners .child-partner p, li {
-    color: #636cb9;
+    color: #6574f3;
 }
 
 table {
@@ -817,13 +819,13 @@ table {
 }
 
 table, th, td {
-  border: 1px solid #ccc;
+  border: 1px solid #1a1818;
 }
 
 th, td {
   padding: 10px;
   text-align: left;
-  color: #d9e7f3;
+  color: #2a2b2c;
 }
 
 ul, ol {
@@ -833,7 +835,7 @@ ul, ol {
   display: flex;
   align-items: center;
   gap: 15px;
-  color: #d9e4ec;
+  color: #1d70ac;
 }
 
 .partner-logo {
@@ -851,13 +853,14 @@ ul, ol {
 .child-partner {
   flex: 1 1 200px;
   padding: 20px;
-  border: 1px solid #0f0f2c;
+  border: 1px solid none;
   border-radius: 8px;
-  background-color: #0f0f2c;
+  background-color: none;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   text-align: left;
+  padding-top: 50px;
 }
 
 .child-logo {
